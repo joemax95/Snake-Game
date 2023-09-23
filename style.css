@@ -1,0 +1,56 @@
+
+body {
+    font-size: 15pt;
+}
+
+#canvas{
+  border: 2px solid black;
+  width: 100%;
+}
+
+#left{
+  position: relative;
+  top: 60px;
+  left: -50px;
+}
+
+#right {
+  position: relative;
+  top: 60px;
+  left: 50px;
+}
+
+#up {
+  position: relative;
+  top: 30px;
+  left: 165px;
+}
+
+#down {
+  position: relative;
+  top: 90px;
+  left: 100px;
+}
+
+#left, #right, #up, #down{
+  width: 60px;
+  height: 40px;
+}
+
+#retry{
+  position: absolute;
+  top: 250px;
+  left: 180px;
+  visibility: hidden;
+  
+}
+
+h5{
+  display: inline-block;
+}
+
+#best_score{
+  position: relative;
+  left: 170px;
+}
+
